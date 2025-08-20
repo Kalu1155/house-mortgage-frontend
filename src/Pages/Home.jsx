@@ -154,29 +154,11 @@ const Home = () => {
               <p className="btn_viewall"><a className="flat_btn01" href="projects/index.html" title="Projects" >View all Properties</a></p>
             </section>
             <section className="count_to flat_counter parallax" data-waypoint-active="yes">
-              <div className="overlay"></div>
+              {/* <div className="overlay"></div> */}
               <div className="container">
                 <div className="row">
                   <div className="col-md-6 col-sm-6">
-                    <h2>If you are looking for Construction Companies in US<br />Then you have just landed in the right place.</h2>
-                  </div>
-                  <div className="col-md-2 col-sm-2">
-                    <div className="counter">
-                      <span className="count-number count_value" data-from="0" data-to="3032014" data-speed="5000" data-refresh-interval="50"></span>
-                      <span className="count_title">Projects</span>
-                    </div>
-                  </div>
-                  <div className="col-md-2 col-sm-2">
-                    <div className="counter">
-                      <span className="count-number count_value" data-from="0" data-to="7121988" data-speed="5000" data-refresh-interval="50"></span>
-                      <span className="count_title">Hour Working</span>
-                    </div>
-                  </div>
-                  <div className="col-md-2 col-sm-2">
-                    <div className="counter">
-                      <span className="count-number count_value" data-from="0" data-to="6101990" data-speed="5000" data-refresh-interval="50"></span>
-                      <span className="count_title">Happy Clients</span>
-                    </div>
+                    <h2 className="twhite text-white">If you are looking for Construction Companies in US<br />Then you have just landed in the right place.</h2>
                   </div>
                 </div>
               </div>

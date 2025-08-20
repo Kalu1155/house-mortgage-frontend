@@ -28,7 +28,13 @@
     position: relative;
     padding: 0;
 }
-
+@media screen and (max-width: 500px) {
+  .tp-banner {
+    width: 100%;
+    position: relative;
+    height: 450px;
+}
+}
 // /**********************************************************
 // 					-	RESET	-
 // ***********************************************************/

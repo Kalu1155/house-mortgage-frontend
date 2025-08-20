@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../Component/Footer';
 import Navbar from '../Component/Navbar';
+import img from "../assets/image/centervillie-house.png"
 
 const About = () => {
   return (
@@ -28,18 +29,65 @@ const About = () => {
           To become a reliable source of housing/property data in the Real estate demand and Supply delivery value-chain</p>
       </div>
 
-      <h3 className="mx-5 mt-5 fw-bolder text-primary-emphasis">- Our Services</h3>
-      <h3 className="mx-5 mt-4 fw-semibold">Mortgage Consulting/Brokerage Services</h3>
-      <h5 className="mx-5 mt-4 ">We provide;</h5>
-      <div class="container">
-        <ul>
-          <li class="p-2">Mortgage Information & property Sourcing service <b>(Basic Premium Service)</b></li>
-          <li class="p-2">Mortgage Profiling service</li>
-          <li class="p-2">Mortgage Processing service</li>
-        </ul>
+      <h3 className="mx-5 mt-5 fw-bolder text-primary-emphasis text-center">- Our Services</h3>
+      <div className="about_grid">
+        <div className="text">
+          <h5 className="mx-5 mt-4 fw-semibold">Mortgage Consulting/Brokerage Services</h5>
+          <h5 className="mx-5 mt-4 ">We provide;</h5>
+          <div class="container">
+            <ul>
+              <li class="p-2">Mortgage Information & property Sourcing service <b>(Basic Premium Service)</b></li>
+              <li class="p-2">Mortgage Profiling service</li>
+              <li class="p-2">Mortgage Processing service</li>
+            </ul>
 
+          </div>
+        </div>
+        <div className="imge">
+          <img src={img} alt="" />
+        </div>
       </div>
-      <h3 className="mx-5 mt-4 fw-semibold">Real Estate Consulting Services</h3>
+      <div className="about_grid">
+        <div className="imge mx-5">
+          <img src={img} alt="" />
+        </div>
+        <div className="text">
+          <h5 className="mx-5 mt-4 fw-semibold">Real Estate Consulting Services</h5>
+          <p className="mx-5 mt-4 ">We are a consulting, <b>Property and Finance Technology (PropTech)</b> driven company; we provide solution and seamlessness using data driven insights for decision making and company/customer data management. Our services include;</p>
+          <div class="container">
+            <ul>
+              <li class="p-2">Capacity Building/Training: Real Estate data analytics and management systems</li>
+              <li class="p-2">Property & Project Management </li>
+              <li class="p-2">Marketing Services</li>
+              <li class="p-2">Professional Project Planning & Advisory services</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="about_grid">
+        <div className="text">
+          <h5 className="mx-5 mt-4 fw-semibold">-Mortgage Consulting/Brokerage Service</h5>
+          <p className="mx-5 mt-4 ">As Mortgage experts, we provide professional mortgage consulting services and guidance making sure your housing goal is achieved.</p>
+          <p className="mx-5 mt-4 ">We strive to provide you firsthand information on financing opportunities, mortgage properties from the <b>Federal Mortgage Bank of Nigeria (FMBN)</b> and other private mortgage financing institutions.</p>
+          <h5 className="mx-5 mt-4 ">Our services include;</h5>
+          <div class="container">
+            <ul>
+              <li class="p-2">Mortgage Information & property Sourcing service <b>(Basic Premium Service)</b> </li>
+              <li class="p-2">Mortgage Profiling service</li>
+              <li class="p-2">Mortgage Processing service</li>
+            </ul>
+          </div>
+        </div>
+        <div className="imge mx-5">
+          <img src={img} alt="" />
+        </div>
+      </div>
+     <div className="about_grid">
+       <div className="imge mx-5">
+          <img src={img} alt="" />
+        </div>
+      <div className="text">
+         <h5 className="mx-5 mt-4 fw-semibold">Real Estate Consulting Services</h5>
       <p className="mx-5 mt-4 ">We are a consulting, <b>Property and Finance Technology (PropTech)</b> driven company; we provide solution and seamlessness using data driven insights for decision making and company/customer data management. Our services include;</p>
       <div class="container">
         <ul>
@@ -49,27 +97,8 @@ const About = () => {
           <li class="p-2">Professional Project Planning & Advisory services</li>
         </ul>
       </div>
-      <h3 className="mx-5 mt-4 fw-semibold">-Mortgage Consulting/Brokerage Service</h3>
-      <p className="mx-5 mt-4 ">As Mortgage experts, we provide professional mortgage consulting services and guidance making sure your housing goal is achieved.</p>
-      <p className="mx-5 mt-4 ">We strive to provide you firsthand information on financing opportunities, mortgage properties from the <b>Federal Mortgage Bank of Nigeria (FMBN)</b> and other private mortgage financing institutions.</p>
-      <h5 className="mx-5 mt-4 ">Our services include;</h5>
-      <div class="container">
-        <ul>
-          <li class="p-2">Mortgage Information & property Sourcing service <b>(Basic Premium Service)</b> </li>
-          <li class="p-2">Mortgage Profiling service</li>
-          <li class="p-2">Mortgage Processing service</li>
-        </ul>
       </div>
-      <h3 className="mx-5 mt-4 fw-semibold">Real Estate Consulting Services</h3>
-      <p className="mx-5 mt-4 ">We are a consulting, <b>Property and Finance Technology (PropTech)</b> driven company; we provide solution and seamlessness using data driven insights for decision making and company/customer data management. Our services include;</p>
-      <div class="container">
-        <ul>
-          <li class="p-2">Capacity Building/Training: Real Estate data analytics and management systems</li>
-          <li class="p-2">Property & Project Management </li>
-          <li class="p-2">Marketing Services</li>
-          <li class="p-2">Professional Project Planning & Advisory services</li>
-        </ul>
-      </div>
+     </div>
       <Footer />
     </>
   )

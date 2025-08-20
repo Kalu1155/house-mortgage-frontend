@@ -21,6 +21,27 @@
 	*	member
 	*	workwithus
 */
+.about_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 40px;
+}
+.imge img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 500px) {
+.about_grid{
+    display: inline-block;
+    padding: 10px;
+    
+}
+// .imge{
+//     display: none;
+// }
+}
 .properties-page-banner {
     background: url(../icons/property-page-banner.svg);
     height: 550px;
@@ -39,7 +60,17 @@
 }
 @media screen and (max-width: 500px) {
    .banner-text{
+      padding-left: 10px;
+    padding-right: 10px;
+     padding-top: 200px;
     font-size: 30px;
+}
+.properties-page-banner {
+    background: url(../icons/property-page-banner.svg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 }
 
@@ -813,8 +844,14 @@ h6.title-divider:after {
 
 .why_us {
     padding: 50px 0 0;
-}
 
+}
+@media screen and (max-width: 500px) {
+  .why_us {
+    padding: 30px;
+
+}
+}
 .why_us02 {
     background: url(../images/shortcode/bg_service01.png) repeat 0 50%;
 }
