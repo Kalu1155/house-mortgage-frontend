@@ -1,0 +1,256 @@
+{
+  "Properties": [
+    {
+      "id": 1,
+      "housename": "Sky Tower",
+      "location": "Chicago, US",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/centervillie-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },
+    {
+      "id": 2,
+      "housename": "Time City",
+      "location": "Chicago, US",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/centervillie-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 3,
+      "housename": "Time City",
+      "location": "Chicago, US",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/centervillie-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },
+    {
+      "id": 4,
+      "housename": "Royal City",
+      "location": "Barcelona, Spain",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/centervillie-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 5,
+      "housename": "Home Interior",
+      "location": "Danang, Viet Nam",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/clinton-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 6,
+      "housename": "Red Bridge",
+      "location": "London, UK",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/clinton-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 7,
+      "housename": "Green House",
+      "location": "Porto, Portugal",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/clinton-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 8,
+      "housename": "Old World Architecture",
+      "location": "Bangoko, Thailand",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/clinton-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 9,
+      "housename": "Red Bridge",
+      "location": "London, UK",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/clinton-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 10,
+      "housename": "Penthouse",
+      "location": "Seoul, Korea",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/clinton-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    },{
+      "id": 11,
+      "housename": "New York Public Library",
+      "location": "Santos, Brazil",
+      "construction_date": "03/03/2014",
+      "surface_area": "1110 m2",
+      "construction_investor": "Vinaconex",
+      "value": 680000,
+      "categories": "Buildings, Office",
+      "tags": "Building, Office",
+      "images": [
+        { "src": "/src/assets/image/centervillie-house.png" },
+        { "src": "/src/assets/image/washington-image.png" },
+        { "src": "/src/assets/image/franklin-house.png" },
+        { "src": "/src/assets/image/clinton-house.png" }
+      ],
+      "thumbnail": "/src/assets/image/franklin-house.png",
+      "Property_desc": "The Sky Tower (SKT) has tapped Konstruct to build the new VietNam Tower in downtown Hanoi. Konstruct is part of the design-build team, which includes architect John Doe, TungPhan & BinhPham."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "middle_name": "Doe",
+      "last_name": "Jonathan",
+      "phone_no": "08087988611",
+      "wa_no": "08087988611",
+      "email": "kaludavid424@gmail.com",
+      "age": "39",
+      "place_work": "Rework Technologies",
+      "nhf_contributor": {
+        "default": {
+          "idh": "NO"
+        },
+        "other": {
+          "ih": "YES"
+        }
+      },
+      "civil_servant": {
+        "default": {
+          "idh": "9074334976"
+        },
+        "other": {
+          "ih": "YES"
+        }
+      },
+      "self_employed": {
+        "default": {
+          "idh": "NO"
+        },
+        "other": {
+          "ih": "YES"
+        }
+      },
+      "monthly_salary_income_amount": "300000",
+      "other_income": {
+        "default": {
+          "idh": "NO"
+        },
+        "other": {
+          "ih": "YES"
+        }
+      },
+      "other_income_amounts_monthly": "200000",
+      "state_of_mortgage": "Abuja",
+      "location_of_mortgage": "Gwagwalada",
+      "interest_amount_for_mortgage": "2000000",
+      "interest_durability": "2 months"
+    }
+  ]
+}
