@@ -11,11 +11,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '/src/assets/javascript/matchMedia.js';
-import '/src/assets/javascript/owl.carousel.js'; 
-import '/src/assets/javascript/parallax.js';
-import '/src/assets/javascript/main.js';
-import '/src/assets/javascript/slider.js';
+// import '/src/assets/javascript/matchMedia.js';
+// import '/src/assets/javascript/owl.carousel.js'; 
+// import '/src/assets/javascript/parallax.js';
+// import '/src/assets/javascript/main.js';
+// import '/src/assets/javascript/slider.js';
 
 
 
