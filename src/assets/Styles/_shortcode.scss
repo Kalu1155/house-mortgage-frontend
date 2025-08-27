@@ -38,9 +38,97 @@
     padding: 10px;
     
 }
-// .imge{
-//     display: none;
-// }
+
+@media screen and (max-width: 500px) {
+        #masthead .navigator-mobile {
+        display: block;
+    }
+    #masthead .navigator-mobile.active .menu {
+        display: block;
+    }
+    #masthead .navigator-mobile .navigator-toggle {
+        position: absolute;
+        top: 0;
+        height: 66.66666666666667px;
+        line-height: 66.66666666666667px;
+        color: #000000;
+    }
+    #masthead .navigator-mobile .menu {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #e6e6e6;
+        display: none;
+    }
+    #masthead .navigator-mobile .menu li {
+        list-style: none;
+        position: relative;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    #masthead .navigator-mobile .menu li a {
+        display: block;
+        padding: 15px 0;
+        color: #333333;
+        margin-right: 56px;
+    }
+    #masthead .navigator-mobile .menu li.fa {
+        display: block;
+        font-family: 'Fjalla One', sans-serif;
+        line-height: 1.8;
+        -moz-osx-font-smoothing: inherit;
+        -webkit-font-smoothing: inherit;
+        left: 0;
+    }
+    #masthead .navigator-mobile .menu li.fa:before {
+        display: none;
+    }
+    #masthead .navigator-mobile .menu li:last-child {
+        border-bottom: none;
+    }
+    #masthead .navigator-mobile .menu li .toggler {
+        position: absolute;
+        display: block;
+        width: 56px;
+        height: 56px;
+        border-left: 1px solid #e6e6e6;
+        right: 0;
+        top: 0;
+        z-index: 99;
+        cursor: pointer;
+    }
+    #masthead .navigator-mobile .menu li .toggler:after {
+        content: "";
+        width: 14px;
+        height: 2px;
+        background: #cccccc;
+        position: absolute;
+        left: 50%;
+        margin-left: -7px;
+        top: 50%;
+        margin-top: -1px;
+    }
+    #masthead .navigator-mobile .menu li .toggler:before {
+        content: "";
+        width: 2px;
+        height: 14px;
+        background: #cccccc;
+        position: absolute;
+        left: 50%;
+        margin-left: -1px;
+        top: 50%;
+        margin-top: -7px;
+    }
+    #masthead .navigator-mobile .menu li.active>.sub-menu {
+        display: block;
+    }
+    #masthead .navigator-mobile .menu li.active>.toggler:before {
+        display: none;
+    }
+    #masthead .navigator-mobile .menu li .sub-menu {
+        border-top: 1px solid #e6e6e6;
+        padding-left: 20px;
+        display: none;
+    }
+}
 }
 .properties-page-banner {
     background: url(../icons/property-page-banner.svg);

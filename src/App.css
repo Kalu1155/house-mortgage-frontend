@@ -76,7 +76,7 @@ body {
 .clear-after:after,
 .clear-before:before,
 .row:after {
-    *zoom: 1;
+    zoom: 1;
 }
 
 ::-webkit-input-placeholder {
@@ -3585,8 +3585,48 @@ samp {
 
 #masthead .navigator-mobile,
 #masthead-sticky .navigator-mobile {
-    clear: both;
-    display: none;
+        clear: both;
+        display: none;
+}
+
+@media (max-width: 900px) {
+    #masthead .navigator,
+    #masthead-sticky .navigator {
+        display: none !important;
+    }
+    #masthead .navigator-mobile,
+    #masthead-sticky .navigator-mobile {
+        display: block !important;
+        width: 100%;
+        background: #fff;
+        position: relative;
+        z-index: 1000;
+    }
+    #masthead .navigator-mobile ul,
+    #masthead-sticky .navigator-mobile ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    #masthead .navigator-mobile ul li,
+    #masthead-sticky .navigator-mobile ul li {
+        border-bottom: 1px solid #eee;
+        padding: 12px 0;
+        text-align: center;
+    }
+    #masthead .navigator-mobile ul li:last-child,
+    #masthead-sticky .navigator-mobile ul li:last-child {
+        border-bottom: none;
+    }
+    #masthead .navigator-mobile ul li a,
+    #masthead-sticky .navigator-mobile ul li a {
+        color: #222;
+        font-size: 1.1em;
+        display: block;
+        padding: 8px 0;
+    }
 }
 
 
@@ -5161,7 +5201,7 @@ h2.title-divider:after {
 
 /*========portfolio-single=========*/
 
-..portfolio-container.portfolio-single .entry-wrapper {
+.portfolio-container.portfolio-single .entry-wrapper {
     border: none;
     text-align: inherit;
     padding: 0;

@@ -5,13 +5,6 @@
 @use "revolution-slider";
 @use "shortcode";
 
-/**
-  * Name: Konstruct
-  * Version: 1.0
-  * Author: THEMESFLAT
-  * Author URI: http://www.themesflat.com
-*/
-
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
@@ -3564,7 +3557,7 @@ samp {
 #masthead .navigator-mobile,
 #masthead-sticky .navigator-mobile {
     clear: both;
-    display: none;
+    // display: none;
 }
 
 
