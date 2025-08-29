@@ -35,7 +35,7 @@ const Navbar = () => {
             <nav
               id="site-navigator-mobile"
               className={`navigator-mobile ${menuOpen ? "active" : ""}`}
-            >
+             >
               <button
                 className="navigator-toggle"
                 onClick={() => setMenuOpen(!menuOpen)}

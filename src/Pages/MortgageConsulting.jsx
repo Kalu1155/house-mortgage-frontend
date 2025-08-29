@@ -52,65 +52,59 @@ const MortgageConsulting = () => {
       
                 <div className="row align-items-center justify-content-center">
 
-                <div className="col-sm-5 d-flex align-items-center justify-content-center">
+                <div className="d-flex align-items-center justify-content-center">
                     <div className="shadow rounded-4 p-3 m-3 form">
                         <h3 class="widget-title">Personal Info</h3>
                         <form id="login-form" method="post" action="#">
-                            <div class="input-wrap">
+                          <div className="row">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 px-5 my-3' placeholder="First name" name="username" id="username" />
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Middle Name" name="username" id='username' />
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Last Name" name="username" id='username' />
                             </div>
-
-                            <div class="input-wrap">
+                          </div>
+                          <div className="row">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Phone.No" name="username" id='username' />
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Age" name="username" id='username' />
                             </div>
 
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Email" name="username" id='username' />
                             </div>
-                            <div class="send-wrap row">
-                                <p type="submit" id="submitLogin" class="bg-white shadow-none col-sm-7 left" name="submit"></p>
-                                <button type="submit" id="submitLogin" class="button col-sm-4 left" name="submit">Register</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                  <div className="col-sm-5 d-flex align-items-center justify-content-center">
-                    <div className="shadow rounded-4 p-3 m-3 form">
-                        <h3 class="widget-title">Other Info</h3>
-                        <form id="login-form" method="post" action="#">
-                            <div class="input-wrap">
+                          </div>
+                          <div className="row">
+                           <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 px-5 my-3' placeholder="Place Of Work" name="username" id="username" />
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="NHF Contributor" name="username" id='username' />
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Civil Servant" name="username" id='username' />
                             </div>
-
-                            <div class="input-wrap">
+                          </div>
+                          <div className="row">
+                              <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Self-employed" name="username" id='username' />
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Monthly Salary/Income amount " name="username" id='username' />
                             </div>
 
-                            <div class="input-wrap">
+                            <div class="input-wrap col-sm-4">
                                 <input type="text" className='mx-5 my-3 px-5' placeholder="Other income" name="username" id='username' />
                             </div>
+                          </div>
                             <div class="send-wrap row">
-                                <p type="submit" id="submitLogin" class="bg-white shadow-none col-sm-7 left" name="submit"></p>
-                                <button type="submit" id="submitLogin" class="button col-sm-4 left" name="submit">Register</button>
+                                <p type="submit" id="submitLogin" class="bg-white shadow-none col-sm-8 left" name="submit"></p>
+                                <button type="submit" id="submitLogin" class="button col-sm-3  left" name="submit">Register</button>
                             </div>
                         </form>
                     </div>
